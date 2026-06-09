@@ -14,14 +14,14 @@ A conversational AI chef that plans meals, builds grocery lists, and walks you t
 - Live: https://meelo-chef.lovable.app
 - Code: https://github.com/pedramhajigholi-cloud/meelio-your-ai-chef
 
-### 🤖 Nordic Job Hunter — AI Agent
+### 🤖 Job Hunter — AI Agent
 An automation I built for myself: finds, ranks, and shortlists Nordic tech roles every weekday so I don't have to scroll job boards.
 
 - **What it does:** Runs on a GitHub Actions cron (07:00 weekdays), pulls live listings from Sweden, Norway, and Denmark, ranks them with the Claude API against a structured role profile, and emails a shortlist with match scores and reasoning.
 - **Stack:** Python, GitHub Actions, Claude API, structured prompts with an explicit scoring rubric.
 - **Why these choices:** GitHub Actions = free, observable, version-controlled scheduling. An LLM ranks better than keyword filtering because it reasons over fit, not just title overlap.
 - **Trade-off I made:** Chose an LLM ranking pass over keyword filtering — slower and pricier per run, but lets me iterate the rubric in plain English in minutes.
-- Code: https://github.com/pedramhajigholi-cloud/nordic-job-hunter
+- Code: https://github.com/pedramhajigholi-cloud/job-agent
 
 ## How I work
 
