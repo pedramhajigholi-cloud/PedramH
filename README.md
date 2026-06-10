@@ -1,10 +1,10 @@
 # Hi, I'm Pedram
 
-Mechanical engineer (MSc, product development) now shipping AI products and agents — two live projects below, both built solo with modern AI tooling.
+Mechanical engineer (MSc, product development) now shipping AI products and agents - two live projects below, both built solo with modern AI tooling.
 
 ## Featured projects
 
-### 🍳 Meelo — AI Chef
+### 🍳 Meelo - AI Chef
 A conversational AI chef that plans meals, builds grocery lists, and walks you through recipes hands-free.
 
 - **What it does:** Conversational meal planning with voice mode for cooking, auto-generated grocery lists, and personalised recipes based on diet, time, and what's in the fridge.
@@ -14,7 +14,7 @@ A conversational AI chef that plans meals, builds grocery lists, and walks you t
 - Live: https://meelo-chef.lovable.app
 - Code: https://github.com/pedramhajigholi-cloud/meelio-your-ai-chef
 
-### 🤖 Job Hunter — AI Agent
+### 🤖 Job Hunter - AI Agent
 An automation I built for myself: finds, ranks, and shortlists Nordic tech roles every weekday so I don't have to scroll job boards.
 
 - **What it does:** Runs on a GitHub Actions cron (07:00 weekdays), pulls live listings from Sweden, Norway, and Denmark, ranks them with the Claude API against a structured role profile, and emails a shortlist with match scores and reasoning.
